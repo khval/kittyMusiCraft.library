@@ -1,0 +1,7 @@
+
+
+struct context
+{
+	int dummy;
+};
+
