@@ -1,0 +1,33 @@
+
+if exists ram:kittyMusiCraft.library
+	delete ram:kittyMusiCraft.library all
+endif
+
+if exists ram:kittyMusiCraft.library.lha
+	delete ram:kittyMusiCraft.library.lha 
+endif
+
+makedir ram:kittyMusiCraft.library
+makedir ram:kittyMusiCraft.library/libs
+makedir ram:kittyMusiCraft.library/autodocs
+makedir ram:kittyMusiCraft.library/include
+makedir ram:kittyMusiCraft.library/tests
+
+copy kittyMusiCraft.library ram:kittyMusiCraft.library/libs
+copy kittyMusiCraft.doc ram:kittyMusiCraft.library/autodocs
+copy /include/#? ram:kittyMusiCraft.library/include ALL
+copy tests/#?.exe ram:kittyMusiCraft.library/tests ALL
+copy /Readme.md ram:kittyMusiCraft.library/readme.txt
+copy /LICENSE ram:kittyMusiCraft.library/LICENSE.txt
+
+copy ENVARC:Sys/def_ascii.info ram:kittyMusiCraft.library/readme.txt.info
+copy ENVARC:Sys/def_ascii.info ram:kittyMusiCraft.library/LICENSE.txt.info
+copy ENVARC:Sys/def_ascii.info ram:kittyMusiCraft.library/autodocs/kittyMusiCraft.doc.info
+copy ENVARC:Sys/def_drawer.info ram:kittyMusiCraft.library.info
+copy ENVARC:Sys/def_drawer.info ram:kittyMusiCraft.library/libs.info
+copy ENVARC:Sys/def_drawer.info ram:kittyMusiCraft.library/autodocs.info
+copy ENVARC:Sys/def_drawer.info ram:kittyMusiCraft.library/include.info
+copy ENVARC:Sys/def_drawer.info ram:kittyMusiCraft.library/tests.info
+
+lha -r a ram:kittyMusiCraft.library.lha ram:kittyMusiCraft.library
+lha a ram:kittyMusiCraft.library.lha ram:kittyMusiCraft.library.info

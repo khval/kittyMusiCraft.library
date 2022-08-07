@@ -1,0 +1,13 @@
+ St Load s$,n 
+ St Play n,n 
+ St Play n 
+ St Stop  
+ St Pause On  
+ St Pause Off  
+ St Voice n 
+ n=St Channel(n)
+ St Vumeter Speed n 
+ St Volume  
+ n=St Get Volume  
+ n=St Base  
+ n=St Version  
