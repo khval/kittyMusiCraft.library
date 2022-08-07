@@ -1,7 +1,6 @@
 
-
 struct context
 {
-	int dummy;
+    struct Module *module;
 };
 

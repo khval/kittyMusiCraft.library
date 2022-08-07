@@ -23,6 +23,7 @@
 #include <exec/types.h>
 #include <libraries/kittymusic.h>
 #include <proto/kittyMusic.h>
+#include <proto/ptreplay.h>
 #include <stdarg.h>
 
 #include "context.h"

@@ -37,8 +37,11 @@ struct _Library
 struct ExecIFace *IExec = NULL;
 struct NewlibIFace * INewlib = NULL;
 struct DOSIFace *IDOS = NULL;
+struct PtrePlayIFace *IPTReplay = NULL;
+
 struct Library *NewLibBase = NULL;
 struct Library *DOSBase = NULL;
+struct Library *PTReplayBase = NULL;
 
 /*
  * The system (and compiler) rely on a symbol named _start which marks
@@ -103,6 +106,7 @@ STATIC APTR libClose(struct LibraryManagerInterface *Self)
 void close_libs()
 {
 	struct ExecIFace *IExec = (struct ExecIFace *)(*(struct ExecBase **)4)->MainInterface;
+	close_lib( PTReplayBase, IPTReplay);
 	close_lib( DOSBase, IDOS);
 	close_lib( NewLibBase, INewlib);
 }
@@ -157,7 +161,7 @@ BOOL init()
 {
 	if ( ! open_lib( "dos.library", 53L , "main", 1, &DOSBase, (struct Interface **) &IDOS  ) ) return FALSE;
 	if ( ! open_lib( "newlib.library", 53L , "main", 1, &NewLibBase, (struct Interface **) &INewlib  ) ) return FALSE;
-
+	if ( ! open_lib( "ptreplay.library", 7 , "main", 1, &PTReplayBase, (struct Interface **) &IPTReplay  ) ) return FALSE;
 	return TRUE;
 }
 
