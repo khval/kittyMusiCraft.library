@@ -1,10 +1,18 @@
 # kittyMusiCraft.library
 This is an extension for Amos Kittens
 
-This is basically a skeleton extension.
-All commands are included, but they will return an error, if you try to using any of the commands.
-If you don’t install the extension Amos Kittens will ignore the command, and try to run the program.
-So, unless you’re interested in contributing to this project, you most likely should not install it.
+This is reimplementation of the MusiCraft extensions.
+Warning only some of the commands are implemented!
+this are commands that are implemented:
+
+St Load filename$,banknr
+St Play banknr
+St Stop banknr
+St Resume banknr
+St Pause banknr
+
+if you find any problem please report in bugtracker.
+The commands that are not implemented will return an error.
 
 # What is this extension for?
 
