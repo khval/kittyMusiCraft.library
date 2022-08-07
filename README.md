@@ -5,11 +5,11 @@ This is reimplementation of the MusiCraft extensions.
 Warning only some of the commands are implemented!
 this are commands that are implemented:
 
-St Load filename$,banknr
-St Play banknr
-St Stop banknr
-St Resume banknr
-St Pause banknr
+  St Load filename$,banknr
+  St Play banknr
+  St Stop banknr
+  St Resume banknr
+  St Pause banknr
 
 if you find any problem please report in bugtracker.
 The commands that are not implemented will return an error.
