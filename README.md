@@ -1,7 +1,7 @@
 # kittyMusiCraft.library
 This is an extension for Amos Kittens
 
-This is reimplementation of the MusiCraft extensions.
+This is a reimplementation of the MusiCraft extensions.
 Warning only some of the commands are implemented!
 this are commands that are implemented:
 
@@ -15,13 +15,11 @@ this are commands that are implemented:
   
   St Pause banknr
 
-if you find any problem please report in bugtracker.
+If you find any problem please report this in the bugtracker.
 The commands that are not implemented will return an error.
 
 # What is this extension for?
 
 This extension should provide support for pro-tracker / scream-tracker, amiga music modules.
-there are some libraries that can be used implement this, that can make it easier.
-
-ptplayer.library & ptreplayer.library for example, see OS4Depot.net for OS4 version,
-and Aminet for SDK / header files.
+this extention uses: ptplayer.library & ptreplay.library 
+See OS4Depot.net for OS4 version, and Aminet for SDK / header files.
