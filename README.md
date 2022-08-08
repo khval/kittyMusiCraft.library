@@ -17,11 +17,17 @@ this are commands that are implemented:
   
     (This one is not supported yet.)
   
-  St Stop banknr
+  St Stop
   
-  St Resume banknr
+    Stop playing music.
   
-  St Pause banknr
+  St Resume
+
+    Resume playing where you paused the playback.
+
+  St Pause
+  
+    Puse playback, you can start playback with St Resume.  
 
 If you find any problem please report this in the bugtracker.
 The commands that are not implemented will return an error.
