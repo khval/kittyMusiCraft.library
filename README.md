@@ -7,7 +7,8 @@ this are commands that are implemented:
 
   St Load filename$,banknr
   
-     Load module into bnaknr
+     Load module into bank number
+     filename$ is the file you like to load.
   
   St Play banknr
   
