@@ -34,7 +34,7 @@ See OS4Depot.net for OS4 version, and Aminet for SDK / header files.
 
 # Not included
 
-No copyrighted text or source code or manuals are included, I have no right to original work. and clime no legal right to distribute the original 680x0 assembler source code. I do not endorse piracy, if you can try obtain it legally, if possible, I know many do distribute abandonware, that’s purely at there own risk.
+No copyrighted text or source code or manuals are included from orginal, I have no right to original work. and clime no legal right to distribute the original 680x0 assembler source code. I do not endorse piracy, if you can try obtain it legally, if possible, I know many do distribute abandonware, that’s purely at there own risk.
 
-The legality of this, is similar to Pepsi Cola, ReactOS or WINE.
-This code is not based on revered engineered code, its purely based on the development documentation, and guess work.
+The legality of this, is similar to Pepsi Cola, ReactOS, AROS or WINE.
+This code is not based on reverse engineered code, its purely based on the development documentation, and guess work.
