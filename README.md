@@ -27,7 +27,7 @@ this are commands that are implemented:
 
   St Pause
   
-    Puse playback, you can start playback with St Resume.  
+    Pause playback, you can start playback with St Resume.  
 
 If you find any problem please report this in the bugtracker.
 The commands that are not implemented will return an error.
