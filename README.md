@@ -9,6 +9,9 @@ this are commands that are implemented:
   
   St Play banknr
   
+  St Play banknr, track 
+  (This one is not supported yet.)
+  
   St Stop banknr
   
   St Resume banknr
