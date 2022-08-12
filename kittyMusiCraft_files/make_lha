@@ -16,7 +16,7 @@ makedir ram:kittyMusiCraft.library/tests
 copy kittyMusiCraft.library ram:kittyMusiCraft.library/libs
 copy kittyMusiCraft.doc ram:kittyMusiCraft.library/autodocs
 copy /include/#? ram:kittyMusiCraft.library/include ALL
-copy tests/#?.exe ram:kittyMusiCraft.library/tests ALL
+copy tests/#?.amos ram:kittyMusiCraft.library/tests ALL
 copy /Readme.md ram:kittyMusiCraft.library/readme.txt
 copy /LICENSE ram:kittyMusiCraft.library/LICENSE.txt
 
